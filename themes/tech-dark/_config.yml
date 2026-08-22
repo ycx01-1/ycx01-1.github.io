@@ -8,7 +8,7 @@ site_label: TECH / NOTES
 hero_kicker: BUILD IN PUBLIC
 hero_title: 把想法写下来，
 hero_title_accent: 把代码做出来。
-hero_description: 一个关于前端工程、工具链和持续学习的个人技术角落。
+hero_description: 天行健，君子以自强不息。记录前端工程、工具链和持续学习。
 social:
-  github: ''
+  github: https://github.com/ycx01-1
   email: ''

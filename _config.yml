@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的技术博客
-subtitle: 在代码与思考之间持续构建
-description: 记录前端、工具链与个人成长的技术博客
-keywords: 技术博客, 前端开发, 工具链
-author: Your Name
+title: 米饭的技术博客
+subtitle: 天行健，君子以自强不息
+description: 天行健，君子以自强不息
+keywords: 米饭, 技术博客, 前端开发, 学习记录
+author: 米饭
 language: zh-CN
 timezone: Asia/Shanghai
 
