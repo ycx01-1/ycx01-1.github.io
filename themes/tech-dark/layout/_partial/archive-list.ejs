@@ -1,0 +1,1 @@
+<div class="archive-list"><% if (page.posts && page.posts.length) { page.posts.each(function(post) { %><a class="archive-row" href="<%= url_for(post.path) %>"><time datetime="<%= post.date.toISOString() %>"><%= date(post.date, 'YYYY.MM.DD') %></time><strong><%= post.title %></strong><span>↗</span></a><% }) } else { %><div class="empty-state">这里暂时没有内容。</div><% } %></div>

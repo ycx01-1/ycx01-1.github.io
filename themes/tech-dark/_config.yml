@@ -1,0 +1,14 @@
+menu:
+  首页: /
+  归档: /archives/
+  分类: /categories/
+  标签: /tags/
+  关于: /about/
+site_label: TECH / NOTES
+hero_kicker: BUILD IN PUBLIC
+hero_title: 把想法写下来，
+hero_title_accent: 把代码做出来。
+hero_description: 一个关于前端工程、工具链和持续学习的个人技术角落。
+social:
+  github: ''
+  email: ''
