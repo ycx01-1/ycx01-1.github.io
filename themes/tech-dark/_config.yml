@@ -6,10 +6,7 @@ menu:
   搜索: /search/
   关于: /about/
 site_label: TECH / NOTES
-avatar: /images/avatar.svg
-wechat:
-  name: 米饭的技术笔记
-  url: ''
+avatar: /images/avatar.png
 hero_kicker: BUILD IN PUBLIC
 hero_title: 把想法写下来，
 hero_title_accent: 把代码做出来。
