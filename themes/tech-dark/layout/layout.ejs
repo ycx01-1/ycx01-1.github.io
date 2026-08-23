@@ -4,6 +4,6 @@
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
   <div class="site-shell"><%- partial('_partial/header') %><main id="main-content" class="site-main"><%- body %></main><%- partial('_partial/footer') %></div>
-  <script src="<%= url_for('/js/theme.js') %>"></script>
+  <script src="<%= url_for('/js/theme.js') %>?v=<%= theme.asset_version || '1' %>"></script>
 </body>
 </html>

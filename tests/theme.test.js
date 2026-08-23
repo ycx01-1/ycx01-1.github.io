@@ -31,4 +31,5 @@ test('generated site exposes the planned routes and content', () => {
   assert.match(read('public/feed.xml'), /<rss version="2\.0">/);
   assert.ok(fs.existsSync(path.join(root, 'public/favicon.svg')));
   assert.match(read('public/css/style.css'), /scroll-margin-top:\s*96px/);
+  assert.match(read('public/index.html'), /style\.css\?v=20260823-2/);
 });
