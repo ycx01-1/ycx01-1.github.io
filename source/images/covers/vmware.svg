@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#101a1e"/>
+  <path d="M0 350h1200M0 70h1200" stroke="#27383a" stroke-width="2"/>
+  <text x="72" y="120" fill="#80ed99" font-size="20" font-family="monospace">02 / RECORDING LAB</text>
+  <text x="72" y="220" fill="#edf5f1" font-size="48" font-family="system-ui, sans-serif" font-weight="700">Windows 11 虚拟录制环境</text>
+  <text x="75" y="275" fill="#8da39d" font-size="24" font-family="system-ui, sans-serif">VMware + OBS + 可恢复备份</text>
+  <rect x="920" y="120" width="180" height="120" rx="10" fill="none" stroke="#80ed99" stroke-width="5"/>
+  <rect x="950" y="270" width="120" height="8" rx="4" fill="#80ed99"/>
+</svg>

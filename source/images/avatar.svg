@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <rect width="160" height="160" rx="32" fill="#101a1e"/>
+  <rect x="12" y="12" width="136" height="136" rx="24" fill="none" stroke="#27383a" stroke-width="4"/>
+  <text x="80" y="105" text-anchor="middle" fill="#80ed99" font-size="76" font-family="system-ui, sans-serif" font-weight="700">米</text>
+</svg>

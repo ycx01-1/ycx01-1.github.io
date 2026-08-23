@@ -1,5 +1,6 @@
 ---
 title: 用 FDM 加快大文件下载：从安装到提速设置
+cover: /images/covers/fdm.svg
 date: 2026-08-23 10:00:00
 categories:
   - 工具实践

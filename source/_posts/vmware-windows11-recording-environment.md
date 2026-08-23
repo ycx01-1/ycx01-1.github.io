@@ -1,5 +1,6 @@
 ---
 title: VMware 安装 Windows 11：打造独立的教程录制环境
+cover: /images/covers/vmware.svg
 date: 2026-08-24 10:00:00
 categories:
   - 教程录制

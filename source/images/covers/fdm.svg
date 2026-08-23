@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#101a1e"/>
+  <path d="M0 350h1200M0 70h1200" stroke="#27383a" stroke-width="2"/>
+  <text x="72" y="120" fill="#80ed99" font-size="20" font-family="monospace">01 / TOOL PRACTICE</text>
+  <text x="72" y="220" fill="#edf5f1" font-size="54" font-family="system-ui, sans-serif" font-weight="700">FDM 下载提速</text>
+  <text x="75" y="275" fill="#8da39d" font-size="24" font-family="system-ui, sans-serif">把等待时间交给下载器</text>
+  <path d="M930 120h170M930 160h110M930 200h140" stroke="#80ed99" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="1010" cy="300" r="34" fill="#80ed99"/>
+  <path d="M1010 282v36M992 300h36" stroke="#0b1114" stroke-width="8" stroke-linecap="round"/>
+</svg>

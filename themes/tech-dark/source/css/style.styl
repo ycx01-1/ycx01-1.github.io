@@ -238,6 +238,19 @@ a
   p
     color var(--muted)
     margin 0 0 16px
+.post-cover
+  display block
+  margin-bottom 22px
+  border 1px solid var(--line)
+  overflow hidden
+  img
+    display block
+    width 100%
+    aspect-ratio 1200 / 420
+    object-fit cover
+    transition transform .25s ease
+  &:hover img
+    transform scale(1.02)
 .post-meta
   color var(--muted)
   font-size 11px
@@ -257,6 +270,59 @@ a
     color var(--muted)
     font-size 14px
     margin 0 0 16px
+.author-card
+  display grid
+  grid-template-columns 52px 1fr
+  gap 12px
+  align-items center
+  margin-bottom 48px
+  padding-bottom 26px
+  border-bottom 1px solid var(--line)
+  img
+    width 52px
+    height 52px
+    border-radius 14px
+    border 1px solid var(--line)
+  h3
+    margin 0
+    font-size 18px
+  p
+    grid-column 1 / -1
+    color var(--muted)
+    font-size 14px
+    margin 0
+  .text-link
+    grid-column 1 / -1
+.author-card.compact
+  margin-bottom 28px
+  padding-bottom 20px
+  grid-template-columns 44px 1fr
+  img
+    width 44px
+    height 44px
+    border-radius 12px
+.wechat-card
+  margin-bottom 48px
+  padding 18px
+  border 1px solid var(--line)
+  background var(--surface)
+  strong
+    display block
+    margin-bottom 5px
+    font-size 18px
+  p:not(.eyebrow)
+    color var(--muted)
+    margin 0 0 12px
+    font-size 13px
+.wechat-card.compact
+  margin-bottom 32px
+.article-cover
+  display block
+  width 100%
+  margin-bottom 32px
+  border 1px solid var(--line)
+  aspect-ratio 1200 / 420
+  object-fit cover
 .tag-cloud
   display flex
   flex-wrap wrap
@@ -471,6 +537,8 @@ a
     padding-top 35px
   .article-layout, .listing-page
     padding-top 55px
+  .article-cover
+    margin-bottom 24px
   .archive-row
     grid-template-columns 92px 1fr 16px
     gap 12px
