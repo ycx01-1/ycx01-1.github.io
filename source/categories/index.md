@@ -1,6 +1,4 @@
 ---
 title: 分类
-layout: page
+layout: categories
 ---
-
-这里按主题整理文章，挑一条感兴趣的路径开始阅读。

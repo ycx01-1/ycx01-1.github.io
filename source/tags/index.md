@@ -1,6 +1,4 @@
 ---
 title: 标签
-layout: page
+layout: tags
 ---
-
-用标签串起不同文章之间的联系。
