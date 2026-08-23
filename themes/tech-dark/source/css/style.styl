@@ -438,6 +438,31 @@ a
     border-bottom 0
 .article-aside
   padding-top 8px
+.article-toc
+  margin-top 34px
+  padding 18px
+  border 1px solid var(--line)
+  background var(--surface)
+  .eyebrow
+    margin-bottom 12px
+  ol, ul
+    margin 0
+    padding-left 18px
+    list-style none
+  ol ol, ul ul
+    margin-top 6px
+    padding-left 14px
+  li
+    margin 6px 0
+  a
+    display block
+    color var(--muted)
+    font-size 13px
+    line-height 1.5
+    &:hover, &:focus-visible
+      color var(--accent)
+.article-toc-mobile
+  display none
 .back-link
   color var(--accent)
   font-size 12px
@@ -534,6 +559,11 @@ a
     padding-top 35px
   .article-layout, .listing-page
     padding-top 55px
+  .article-toc-desktop
+    display none
+  .article-toc-mobile
+    display block
+    margin 28px 0 0
   .article-cover
     margin-bottom 24px
   .archive-row
