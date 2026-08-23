@@ -22,4 +22,5 @@ test('generated site exposes the planned routes and content', () => {
   assert.match(index, /data-theme-toggle/);
   assert.match(read('public/categories/index.html'), /工具实践/);
   assert.match(read('public/tags/index.html'), /FDM/);
+  assert.match(read('public/2026/08/23/fdm-download-speed/index.html'), /categories\/%E5%B7%A5%E5%85%B7%E5%AE%9E%E8%B7%B5/);
 });
