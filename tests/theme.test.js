@@ -8,7 +8,7 @@ const read = (file) => fs.readFileSync(path.join(root, file), 'utf8');
 
 test('uses the local tech-dark theme and defines core layouts', () => {
   assert.equal(read('_config.yml').match(/^theme:\s*(.+)$/m)?.[1], 'tech-dark');
-  for (const file of ['layout/layout.ejs', 'layout/index.ejs', 'layout/post.ejs', 'layout/page.ejs', 'layout/archive.ejs', 'layout/category.ejs', 'layout/tag.ejs', 'layout/categories.ejs', 'layout/tags.ejs', 'source/css/style.styl']) {
+  for (const file of ['layout/layout.ejs', 'layout/index.ejs', 'layout/post.ejs', 'layout/page.ejs', 'layout/archive.ejs', 'layout/category.ejs', 'layout/tag.ejs', 'layout/categories.ejs', 'layout/tags.ejs', 'layout/search.ejs', 'source/css/style.styl', 'source/favicon.svg']) {
     assert.ok(fs.existsSync(path.join(root, 'themes/tech-dark', file)), `missing ${file}`);
   }
 });
@@ -23,4 +23,8 @@ test('generated site exposes the planned routes and content', () => {
   assert.match(read('public/categories/index.html'), /工具实践/);
   assert.match(read('public/tags/index.html'), /FDM/);
   assert.match(read('public/2026/08/23/fdm-download-speed/index.html'), /categories\/%E5%B7%A5%E5%85%B7%E5%AE%9E%E8%B7%B5/);
+  assert.ok(fs.existsSync(path.join(root, 'public/search/index.html')));
+  assert.match(read('public/search.json'), /FDM/);
+  assert.match(read('public/feed.xml'), /<rss version="2\.0">/);
+  assert.ok(fs.existsSync(path.join(root, 'public/favicon.svg')));
 });

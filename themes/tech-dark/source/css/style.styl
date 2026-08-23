@@ -79,6 +79,51 @@ a
   color var(--accent)
   cursor pointer
   border-radius 5px
+.search-link
+  display inline-flex
+  align-items center
+  justify-content center
+.search-box
+  display flex
+  align-items center
+  gap 12px
+  max-width 720px
+  margin-top 34px
+  padding 14px 16px
+  border 1px solid var(--line)
+  background var(--surface)
+  color var(--accent)
+  input
+    width 100%
+    border 0
+    outline 0
+    background transparent
+    color var(--text)
+    font: inherit
+    &::placeholder
+      color var(--muted)
+.search-results
+  display grid
+  gap 12px
+  max-width 720px
+  padding-top 24px
+.search-result
+  display grid
+  gap 6px
+  padding 18px
+  border 1px solid var(--line)
+  background var(--surface)
+  &:hover
+    border-color var(--accent)
+  time
+    color var(--muted)
+    font-family 'IBM Plex Mono', monospace
+    font-size 11px
+  strong
+    font-size 19px
+  span
+    color var(--muted)
+    font-size 14px
 .hero
   display grid
   grid-template-columns 1.1fr .9fr
