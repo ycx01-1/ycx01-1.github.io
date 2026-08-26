@@ -8,6 +8,7 @@ tags:
   - 数据备份
   - QzoneArchive
   - Windows
+  - Android
 ---
 
 QQ 空间保存了很多个人回忆，包括说说、相册、视频、留言和评论。为了避免账号异常、误删或平台接口变化导致内容丢失，可以使用开源项目 **QzoneArchive** 将有权限访问的 QQ 空间数据归档到本地。
@@ -50,7 +51,25 @@ D:\QQ空间归档
 
 只建议从项目 GitHub 页面或项目作者提供的官方发布渠道下载，不要使用来历不明的修改版程序。
 
-### 2. 直接从源码运行
+### 2. 没有电脑怎么办？
+
+如果使用的是安卓手机，可以直接下载安装官方 Release 中的 APK，不需要电脑：
+
+1. 用安卓手机打开 [QzoneArchive Releases](https://github.com/Gaoshu705/QzoneArchive/releases)；
+2. 进入最新版本的 `Assets`，下载 `app-universal-release.apk`；
+3. 下载完成后点击 APK 文件开始安装；
+4. 如果系统提示禁止安装未知应用，进入设置，允许当前浏览器安装应用；
+5. 返回安装界面，完成安装并打开 QzoneArchive。
+
+也可以直接使用以下官方 APK 下载地址：
+
+<https://github.com/Gaoshu705/QzoneArchive/releases/download/v1.0.3/app-universal-release.apk>
+
+目前项目提供的是 Android APK。iPhone 页面中的 `.ipa` 为未签名文件，不能像普通 App 一样直接安装；没有电脑时不建议尝试自行侧载。
+
+安装完成后，在手机中打开 QzoneArchive，按照提示登录 QQ 并创建归档任务。建议第一次只归档少量内容，确认数据能够正常保存后，再进行完整归档。
+
+### 3. 直接从源码运行
 
 如果没有适合自己系统的预编译程序，也可以按照项目说明从源码构建。项目开发环境主要需要：
 
